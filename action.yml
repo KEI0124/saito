@@ -4,6 +4,8 @@ author: 'saito'
 inputs:
   ami:
     required: false
+  webhook:
+    required: true
 branding:
   icon: 'link'
   color: 'red'
