@@ -2,15 +2,12 @@
 
 const axios = require('axios');
 
-// for (var i = 0; i < process.argv.length; i++) {
-//   console.log("argv[" + i + "] = " + process.argv[i]);
-// }
+// process.argv[i]でjsを呼び出した時の引数を参照出来る
 
 const core = require('@actions/core');
 // const github = require('@actions/github');
 
 try {
-  // `who-to-greet` input defined in action metadata file
   const AMI = core.getInput('ami');
   const URL = core.getInput('webhook'); //各自のWebhook URL
   console.log(`${AMI} is error`);
@@ -24,5 +21,3 @@ try {
 } catch (error) {
   core.setFailed(error.message);
 }
-
-
