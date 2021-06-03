@@ -1,0 +1,19 @@
+name: 'saito action'
+description: 'saito action unit'
+inputs:
+  who-to-greet:  # id of input
+    description: 'Who to greet'
+    required: true
+    default: 'World'author: 'saito'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+branding:
+  icon: 'link'
+  color: 'red'
+runs:
+  using: 'node12'
+  main: 'index.js'
+
+
+  
