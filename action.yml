@@ -3,8 +3,7 @@ description: 'teams webhook action unit'
 author: 'saito'
 inputs:
   ami:
-    required: true
-    default: 'World'
+    required: false
 branding:
   icon: 'link'
   color: 'red'
