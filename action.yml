@@ -1,10 +1,11 @@
 name: 'teams webhook action'
 description: 'teams webhook action unit'
-# inputs:
-#   who-to-greet:  # id of input
-#     description: 'Who to greet'
-#     required: true
-#     default: 'World' author: 'saito'
+author: 'saito'
+inputs:
+  who-to-greet:  # id of input
+    description: 'who to greet'
+    required: true
+    default: 'World' 
 outputs:
   time: # id of output
     description: 'The time we greeted you'
