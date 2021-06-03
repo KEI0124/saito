@@ -2,13 +2,9 @@ name: 'teams webhook action'
 description: 'teams webhook action unit'
 author: 'saito'
 inputs:
-  who-to-greet:  # id of input
-    description: 'who to greet'
+  ami:
     required: true
-    default: 'World' 
-outputs:
-  time: # id of output
-    description: 'The time we greeted you'
+    default: 'World'
 branding:
   icon: 'link'
   color: 'red'
