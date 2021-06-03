@@ -14,8 +14,8 @@ try {
   // `who-to-greet` input defined in action metadata file
   const ami = core.getInput('ami');
   console.log(`${ami} is error`);
-  axios.post(URL, { text: '${ami} is error' })
-  .then(res => console.log(res.data));
+  axios.post(URL, { text: 'ami is error' })
+    .then(res => console.log(res.data));
   // const time = (new Date()).toTimeString();
   // core.setOutput("time", time);
   // // Get the JSON webhook payload for the event that triggered the workflow
