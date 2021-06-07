@@ -9,5 +9,5 @@ jobs:
         uses: KEI0124/saito@v2.2
         with:
           webhook: 'Teamsのwebhook URL('https://~')'
-          ami: 'エラーとして出力したい文字'
+          message: '出力したい文字'
 ```
