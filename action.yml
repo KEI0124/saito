@@ -2,7 +2,7 @@ name: 'teams webhook action'
 description: 'teams webhook action unit'
 author: 'saito'
 inputs:
-  ami:
+  message:
     required: false
   webhook:
     required: true
