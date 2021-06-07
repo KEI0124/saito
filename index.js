@@ -8,10 +8,10 @@ const core = require('@actions/core');
 // const github = require('@actions/github');
 
 try {
-  const AMI = core.getInput('ami');
+  const MESSAGE = core.getInput('message');
   const URL = core.getInput('webhook'); //各自のWebhook URL
-  console.log(`${AMI} is error`);
-  axios.post(URL, { text: `${AMI} is error` })
+  console.log(`${MESSAGE}`);
+  axios.post(URL, { text: `${MESSAGE}` })
     .then(res => console.log(res.data));
   // const time = (new Date()).toTimeString();
   // core.setOutput("time", time);
